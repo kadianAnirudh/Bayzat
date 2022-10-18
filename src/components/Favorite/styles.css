@@ -1,0 +1,122 @@
+.media {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 5px;
+    margin: 5px 0;
+    background-color: #282c34;
+    border-radius: 10px;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    overflow: hidden;
+  }
+  
+  .media:hover{
+    background-color: white;
+    color: black;
+  }
+  
+  .media:hover > span {
+    font-weight:bold;
+  }
+
+  @media (max-width: 550px) {
+    .media {
+      width: 46%;
+    }
+  }
+  
+  .poster {
+    border-radius: 10px;
+    /* height: 90%; */
+    width: 100%;
+  }
+  
+  .title {
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    padding: 8px 0;
+    max-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .subTitle {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3px;
+    padding: 0 2px;
+    padding-bottom: 3px;
+    font-size: 12px;
+    margin-left: 5px;
+    flex:1
+
+  }  
+
+  .subTitle-icon:hover{
+    color: red;
+  }
+
+  .subTitle{
+    font-weight: bold;
+  }
+
+  /* .sub-sub{
+  } */
+
+/* .badger{
+left: 0;
+height: 20px;
+width: 2px;0px;
+}   */
+
+.favorite-container{
+  position: relative;
+  margin-left:91%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  z-index: 1;
+  border-radius: 100%;
+  background-color:red;
+}
+
+.movie-over{
+  position: absolute;
+  bottom:0;
+  left:0;
+  right:0;
+  background-color:white;
+  color: black;
+  padding:1rem;
+  transform: translateY(100%);
+  transition: transform 0.5s ease-in-out;
+  overflow: auto;
+  max-height: 100%;
+  font-weight: bold;
+  /* padding-top:10% */
+}
+
+.postertextcontainer{
+cursor: pointer;
+}
+
+.postertextcontainer:hover .movie-over{
+  transform: translateY(0%);
+}
+
+.media-parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;    
+}
+
+@media (max-width: 700px){
+  .media-parent{
+      margin-top:20px;
+  }
+}
