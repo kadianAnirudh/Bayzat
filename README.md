@@ -26,11 +26,27 @@ E. Components reusability: The movie cards are being displayed by a 'Single comp
 F. Fixing responsiveness: The application is completely screen responsive with the margins, paddings and component sizes adjusting wrt the screen.
 
 Mobile Screen
+
 ![mobilesiize](https://user-images.githubusercontent.com/98485187/196585394-412c8159-bdf9-41a8-99c8-3c2bff88f620.PNG)
 
 Tablet Screen
+
 ![tabSize](https://user-images.githubusercontent.com/98485187/196585422-66da71b5-fd87-433e-a6c2-15ccd0b525bb.PNG)
 
 PC Screen size
+
 ![pcSize](https://user-images.githubusercontent.com/98485187/196585449-877b1742-7d79-4e02-9ff4-85a4afd257fe.PNG)
 
+E. Repository cleanup: Unwanted packages have been uninstalled and code has been written in a way to make sure the knowledge transfer in future is easy.
+
+<h1> Overview of Bonus criteria </h1>
+
+A. Improve UI/UX: There is always room for improvement on the project, but this is one of the best UI that could be created with Netflix being the direct inspiration for this movie app. 
+
+B. Clean commit history: Couldn't be more cleaner :)
+
+Future improvements I wish to make: 
+a. Switch the project into TS completely while using Next JS for frontend. 
+b. Delete or remove button into favorites section.
+c. Saving the favorites section to local storage.
+d. Saving the card state to local storage to ensure the icons remain saved on page refresh too.
