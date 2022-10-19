@@ -45,8 +45,14 @@ A. Improve UI/UX: There is always room for improvement on the project, but this 
 
 B. Clean commit history: Couldn't be more cleaner :)
 
-Future improvements I wish to make: 
+
+==> Future improvements I wish to make: 
+
 a. Switch the project into TS completely while using Next JS for frontend. 
+
 b. Delete or remove button into favorites section.
+
 c. Saving the favorites section to local storage.
+
 d. Saving the card state to local storage to ensure the icons remain saved on page refresh too.
+
