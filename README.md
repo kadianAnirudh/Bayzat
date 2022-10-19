@@ -2,6 +2,8 @@
 
 A simple movie application which fetches data from an array, allows for searches and lets you add to favorites list. The design of the project is based on Netflix. 
 
+<h3> | <a href="https://www.loom.com/share/2ed66d44c3194443a3c9b8fac9340da9"> Video Explanation </a>| <a href="https://lighthearted-sfogliatella-f4605c.netlify.app/"> Live View </a>| </h3>
+
 <h1> Overview of Evaluation criteria </h1>
 
 A. Fixing type issues : Due to react facing updates more fequently than ever, an issue with package and component versions keeps making problems. The same happened to me in this project where I had to create a seperate react app and import the data. I wrote most of my code in JS, but managed to solve the type error at App.tsx where I was suppposed to declare the type for UseState. 
