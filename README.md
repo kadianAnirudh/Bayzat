@@ -19,6 +19,7 @@ B. Performance improvements: With the improved design, the 'add to favorites' be
 C. Semantic elements: Extensive use of Semantic elements has been done throughout the project, with Material Ui elements forming a major part of the project as well.
 
 D. Apply best React practices: I have tried to follow all the best practices right from DRY ( do not repeat yourself ) to clean code. Sepearate component folders with independent CSS files were created. The folder structure is clean and easy to understand. 
+
 ![folders](https://user-images.githubusercontent.com/98485187/196584300-847fc326-af6e-4383-b4c3-d82ee10e84fc.PNG)
 
 E. Components reusability: The movie cards are being displayed by a 'Single component' which has been reused at the Favorites page. The context API has been used at multiple pages to keep an account of the states being mutated. 
