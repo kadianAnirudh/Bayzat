@@ -46,13 +46,13 @@ A. Improve UI/UX: There is always room for improvement on the project, but this 
 B. Clean commit history: Couldn't be more cleaner :)
 
 
-==> Future improvements I wish to make: 
+<h1>Future improvements I wish to make </h1> 
+<ul>
+<li>Switch the project into TS completely while using Next JS for frontend.</li>
 
-a. Switch the project into TS completely while using Next JS for frontend. 
+<li>Delete or remove button into favorites section.</li>
 
-b. Delete or remove button into favorites section.
+<li>Saving the favorites section to local storage.</li>
 
-c. Saving the favorites section to local storage.
-
-d. Saving the card state to local storage to ensure the icons remain saved on page refresh too.
-
+<li>Saving the card state to local storage to ensure the icons remain saved on page refresh too.</li>
+</ul>
